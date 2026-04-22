@@ -1,0 +1,67 @@
+body {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden; /* Evita barras de rolagem no App */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.clock {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.time-block {
+    width: 160px;
+    height: 120px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #b092f7;
+    /* Centralização perfeita do número */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+.separator {
+    font-size: 50px;
+    color: #b092f7;
+    opacity: 0.5;
+}
+
+.date-display {
+    color: #b092f7;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.credits {
+    margin-top: 60px;
+    color: #444;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.credits span {
+    color: #f5f4f7;
+    font-weight: bold;
+}
